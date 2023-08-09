@@ -29,6 +29,13 @@
 p span{
     color: #D0B216;
 }
+
+p span:hover{
+    color: #003976;
+    cursor: pointer;
+    transition: .1s;
+}
+
 .right input{
     height: 20px;
     width: 350px;
@@ -47,9 +54,17 @@ p span{
     height: 100%;
     width: 100%;
     display: flex;
+    font-weight: 700;
     align-items: center;
     justify-content: center;
     background-color: #003976;
     color: white;
     border: none;
+}
+
+#submit-button:hover{
+    background-color: #D0B216;
+    color: #003976;
+    cursor: pointer;
+    transition: .3s;
 }

@@ -46,11 +46,20 @@ nav .links li:hover{
     cursor: pointer;
 }
 
+nav .links li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav .links li a:hover{
+    color: #D0B216;
+}
+
 nav .links img{
     width: 20px;
 }
 
-nav .links .active-link{
+nav .links .active-link a{
     color: #D0B216;
 }
 
